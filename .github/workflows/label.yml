@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See documentation: https://github.com/actions/labeler
-      - uses: actions/labeler@v4.0.2
+      - uses: actions/labeler@4.1.0
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
